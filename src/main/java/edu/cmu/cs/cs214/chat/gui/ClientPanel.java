@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package edu.cmu.cs.cs214.chat.gui;
 
@@ -26,10 +26,13 @@ import edu.cmu.cs.cs214.chat.server.Message;
 
 /**
  * ClientPanel a GUI for the ChatClient interface
- * 
+ *
  * @author nora
  *
  */
+
+
+
 public class ClientPanel extends JPanel implements ClientChangeListener {
     private static final int FIELD_WIDTH = Integer.parseInt("60");
     private static final int INFO_WIDTH = Integer.parseInt("20");
@@ -64,7 +67,7 @@ public class ClientPanel extends JPanel implements ClientChangeListener {
     /**
      * Constructor for ClientPanel takes in an instance of the ChatClient that
      * it will be representing.
-     * 
+     *
      * @param chatClient
      *            ChatClient the gui will be representing
      */
@@ -176,7 +179,7 @@ public class ClientPanel extends JPanel implements ClientChangeListener {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see
      * edu.cmu.cs.cs214.rec15.gui.ClientChangeListener#startChat(java.lang.String
      * , java.lang.String, java.lang.String)
@@ -192,7 +195,7 @@ public class ClientPanel extends JPanel implements ClientChangeListener {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see
      * edu.cmu.cs.cs214.rec15.gui.ClientChangeListener#messageReceived(java.
      * lang.String)
@@ -216,7 +219,7 @@ public class ClientPanel extends JPanel implements ClientChangeListener {
 
     /**
      * Displays a pop-up error message
-     * 
+     *
      * @param message
      *            text of message to be displayed
      */
